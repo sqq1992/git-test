@@ -1,1 +1,1 @@
-console.log('wo shi another!');
+console.log('wo shi test!');
