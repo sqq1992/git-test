@@ -1,0 +1,3 @@
+[submodule "src/crm"]
+	path = src/crm
+	url = https://github.com/sqq1992/scroll.git
