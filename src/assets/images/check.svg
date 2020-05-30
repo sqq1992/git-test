@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="短信短链" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-436.000000, -280.000000)">
+        <g id="商品链接" transform="translate(47.000000, 78.000000)" fill="#0073CB">
+            <g id="Group" transform="translate(22.000000, 140.000000)">
+                <path d="M380,88 C372.820298,88 367,82.1797017 367,75 C367,67.8202983 372.820298,62 380,62 C387.179702,62 393,67.8202983 393,75 C393,82.1797017 387.179702,88 380,88 Z M377.949747,77.3137085 L375.12132,74.4852814 C374.730796,74.0947571 374.097631,74.0947571 373.707107,74.4852814 C373.316582,74.8758057 373.316582,75.5089706 373.707107,75.8994949 L377.242641,79.4350288 C377.633165,79.8255531 378.26633,79.8255531 378.656854,79.4350288 L386.435029,71.6568542 C386.825553,71.26633 386.825553,70.633165 386.435029,70.2426407 C386.044505,69.8521164 385.41134,69.8521164 385.020815,70.2426407 L377.949747,77.3137085 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,360 @@
+@charset "utf-8";
+#module-user-leftNav {
+    width: 170px;
+    background: #fff;
+    //新样式 - left
+    .crm_leftNav{
+        background: #fff;
+        .leftNav{
+			padding-top: 10px;
+            a,li{
+                font-size: 14px; line-height: 46px; text-indent: 20px; color: #666; font-weight: 400; display: block; text-decoration: none;
+            }
+            a{
+                position: relative;font-size: 14px;line-height: 40px;text-indent: 30px;color: #666;font-weight: 400;display: block;text-decoration: none;
+                &:hover{
+                    background: #fff; color: #000;
+                }
+                &.curs{
+                    border-left: 2px solid #2987df; background: #e5f2ff; color: #2987df;
+                }
+                i.dot{
+                    width: 6px; height: 6px; border-radius: 50%; background: red; position: absolute;
+                }
+            }
+            li{
+				h3{font-size: 100%;padding: 0;
+					a{font-size: 14px;text-indent: 0;}
+				}
+                &.curs{
+					h3{background: #fff; color: #333;
+						a{color: #333;}
+					}
+                }
+                a{
+                    font-size: 12px; padding-left: 8px;
+                    &.curs,&:hover{
+                        background: #fff; color: #3089DE; background: #F7F8FA; border: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.icon-down {
+	background: url(../../images/mj-icon.png) no-repeat -2px -137px;
+	width: 9px;
+	height: 6px;
+	position: absolute;
+	display: inline-block;
+	top: 19px;
+	right: 20px;
+}
+
+.icon-home {
+	background: url(../../images/mj-icon.png) no-repeat 1px -24px;
+	width: 16px;
+	height: 15px;
+	vertical-align: text-top;
+}
+
+.icon-order {
+	background: url(../../images/mj-icon.png) no-repeat 1px -40px;
+	width: 16px;
+	height: 15px;
+}
+
+.icon-product {
+	background: url(../../images/mj-icon.png) no-repeat 1px -55px;
+	width: 16px;
+	height: 15px;
+}
+
+.icon-date {
+	background: url(../../images/mj-icon.png) no-repeat 3px -72px;
+	width: 16px;
+	height: 15px;
+}
+
+.icon-message {
+	background: url(../../images/mj-icon.png) no-repeat 2px -88px;
+	width: 16px;
+	height: 10px;
+}
+
+.icon-finance {
+	background: url(../../images/mj-icon.png) no-repeat 1px -104px;
+	width: 16px;
+	height: 10px;
+}
+
+.icon-system {
+	background: url(../../images/mj-icon.png) no-repeat 3px -120px;
+	width: 16px;
+	height: 13px;
+}
+.icon-stock {
+	background: url(../../images/mj-icon.png) no-repeat -1px -298px;
+	width: 16px;
+	height: 16px;
+}
+//基础图标
+.icon-basis{
+	background: url("../../images/mj-icon.png")no-repeat -1px -298px;
+	width:16px;
+	height:16px;
+}
+//采购图标
+.icon-purchase{
+	background: url("../../images/mj-icon.png")no-repeat -30px -221px;
+	width:16px;
+	height:16px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.col-side {
+	float: left;
+	width: 170px;
+}
+.col-main {
+	margin-left: 170px;
+	overflow: hidden;
+}
+
+//customize-left ==============> start
+.customized-body {
+	height: 100%;
+	#J_app-pages{
+		// height: 100%;
+	}
+	#container {
+		height: 98%;
+		height: ~"calc(100% - 40px)";
+		height: ~"-webkit-calc(100% - 40px)";
+		height: ~"-moz-calc(100% - 40px)";
+	}
+	#header {
+		.header-inner {
+			width: 100%;
+			min-width: 1200px;
+		}
+	}
+	.container {
+		margin: 0;
+		width: 100%;
+		min-width: 1200px;
+		height: 100%;
+		.module-trade-footer-wrap{
+			width: 100%;
+			min-width: 1200px;
+		}
+		.col-side {
+			width: 115px; overflow: hidden;
+		}
+		.col-main {
+			margin-left: 0;
+			.moudule-user-trade{
+				width: 49%;
+				min-width: 470px;
+			}
+			.moudule-product-news {
+				width: 49%;
+				min-width: 500px;
+			}
+		}
+		.module-trade-taskbar,
+		.module-trade-footer-wrap {
+			width: 100%;
+			min-width: 1200px;
+		}
+		.module-trade-footer,
+		.module-trade-taskbar-inner{
+			margin-left: 50px;
+		}
+		#module-user-leftNav .left-list {
+			width: 50px;
+			.item {
+				position: relative;
+			}
+			.item{
+				.sub-menu {
+					display: none;
+					border: 1px solid #CCC;
+				}
+			}
+			.item:hover{
+				.sub-menu {
+					display: block;
+					position: absolute;
+					left: 49px;
+				}
+			}
+			.item a.link:hover,
+			.item.current a.link {
+				width: 36px;
+				border-left: 2px solid #0d5b8f;
+				border-right: none;
+				.icon-home {
+					background-position: -28px 0;
+				}
+				.icon-order {
+					background-position: -27px -320px;
+				}
+				.icon-as {
+					background-position: -29px -242px;
+				}
+				.icon-purchase {
+					background-position: -30px -270px;
+				}
+				.icon-finance {
+					background-position: -29px -120px;
+				}
+				.icon-message {
+					background-position: -29px -98px;
+				}
+				.icon-system {
+					background-position: -29px -143px;
+				}
+				.icon-product {
+					background-position: -29px -168px;
+				}
+				.icon-stock {
+					background-position: -29px -195px;
+				}
+				.icon-member {
+					background-position: -31px -352px;
+				}
+				.icon-data {
+					background-position: -31px -378px;
+				}
+				.icon-rights {
+					background-position: -31px -410px;
+				}
+				.icon-evaluate {
+					background-position: -31px -440px;
+				}
+				.icon-user {
+					background-position: -31px -468px;
+				}
+			}
+			.item i {
+				height: 22px;
+				margin-right: 5px;
+				width: 28px;
+			}
+			.icon-down {
+				display: none;
+			}
+
+			.item .icon-order,
+			.item .icon-as {
+				height: 28px;
+			}
+			.icon-home {
+				background: url("../../images/leftmenu_icon_sprite.png") no-repeat 0 0;
+			}
+			.icon-order {
+				background: url("../../images/leftmenu_icon_sprite.png") no-repeat 0 -320px;
+			}
+			.icon-as {
+				background: url("../../images/leftmenu_icon_sprite.png") no-repeat 0 -242px;
+			}
+			.icon-purchase {
+				background: url("../../images/leftmenu_icon_sprite.png") no-repeat 0 -270px;
+			}
+			.icon-finance {
+				background: url("../../images/leftmenu_icon_sprite.png") no-repeat 0 -120px;
+			}
+			 .icon-message {
+				background: url("../../images/leftmenu_icon_sprite.png") no-repeat 0 -98px;
+			}
+			.icon-system {
+				background: url("../../images/leftmenu_icon_sprite.png") no-repeat 0 -143px;
+			}
+			.icon-product {
+				background: url("../../images/leftmenu_icon_sprite.png") no-repeat 0 -168px;
+			}
+			.icon-stock {
+				background: url("../../images/leftmenu_icon_sprite.png") no-repeat 0 -195px;
+			}
+			.icon-member {
+				background: url("../../images/leftmenu_icon_sprite.png") no-repeat -1px -352px;
+			}
+			.icon-data {
+				background: url("../../images/leftmenu_icon_sprite.png") no-repeat -1px -378px;
+			}
+			.icon-rights {
+				background: url("../../images/leftmenu_icon_sprite.png") no-repeat -1px -410px;
+			}
+			.icon-evaluate {
+				background: url("../../images/leftmenu_icon_sprite.png") no-repeat -1px -440px;
+			}
+			.icon-user {
+				background: url("../../images/leftmenu_icon_sprite.png") no-repeat -1px -468px;
+			}
+		}
+		//prodoct short name
+		.pt-product{
+			.pt-pages,
+			.module-pt-taskbar-inner{
+				min-width: 1030px;
+				width: 98%;
+			}
+		}
+		//module product
+		.module-prod-wrap .module-prod-list .main-list{
+			min-width: 640px;
+			width: 67%;
+		}
+		.module-stock-wrap .module-prod-list .main-list{
+			width: 100%;
+		}
+		.module-prod-wrap .module-prod-list .prod-details{
+			min-width: 360px;
+			width: 28%;
+			.detailed-info .lab-content {
+				min-width: 324px;
+				width: 90%;
+				.for-prod-basic-info .info-item .info-item-label{
+					min-width: 90px;
+					width: 40%;
+				}
+			}
+		}
+		.module-prod-wrap .module-prod-list .prod-pages,
+		.module-prod-wrap .module-prod-list .module-prod-taskbar{
+			width: 96%;
+			min-width: 1020px;
+		}
+		.module-stock-wrap .module-prod-list .prod-pages,
+		.module-stock-wrap .module-prod-list .module-prod-taskbar{
+			width: 100%;
+			min-width: 1020px;
+		}
+		//module sms
+		.record-list-box .record-list table,
+		.record-list-box .recharge-list table {
+			width: 100%;
+			min-width: 982px;
+		}
+		//module settings
+		.shop-info-setting.f-lt {
+				min-width: 578px;
+				width: 60%;
+		}
+		.book-info-setting.f-rt,
+		.multi-shop-setting.f-rt {
+			min-width: 402px;
+			width: 38%;
+			margin-right: 2px;
+		}
+	}
+}
+
+/*
+#modlue_leftNav.scroll-to-fixed-fixed{z-index:2000 !important;}*/

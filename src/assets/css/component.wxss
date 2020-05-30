@@ -1,0 +1,146 @@
+.wangEditor-container .wangEditor-txt p,
+.wangEditor-container .wangEditor-txt h1,
+.wangEditor-container .wangEditor-txt h2,
+.wangEditor-container .wangEditor-txt h3,
+.wangEditor-container .wangEditor-txt h4,
+.wangEditor-container .wangEditor-txt h5 {
+  margin: 0 !important;
+  line-height: 1.5 !important;
+}
+.wangEditor-menu-container .menu-item {
+  height: 35px !important;
+}
+.wangEditor-menu-container .menu-item.clearfix {
+  overflow: hidden;
+}
+.fontClass th .cell {
+  font-weight: 400;
+  font-size: 12px;
+  font-family: PingFangSC-Regular;
+  color: #666666;
+}
+.fontClass td .cell {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  color: #333333;
+}
+.integralTable .el-dialog__header .el-dialog__title {
+  font-weight: 400;
+  color: #48576a;
+}
+#memberTable .el-table__body-wrapper {
+  overflow: hidden;
+}
+#memberTable .el-dialog.el-dialog--small {
+  width: 490px;
+}
+.dialog_cla .el-dialog.el-dialog--small {
+  width: 720px;
+}
+.analysis .el-dialog.el-dialog--small {
+  width: 420px;
+}
+.integralThr .goodChoose .el-dialog.el-dialog--small {
+  width: 850px;
+}
+.integralThr .goodChoose.goodsDetail .el-dialog.el-dialog--small {
+  width: auto;
+}
+.integralThr .goodChoose.goodsDetail .el-dialog__body {
+  padding-top: 0;
+}
+.integralThr .el-dialog.el-dialog--small {
+  width: 1020px;
+}
+.setMaxDia .el-dialog.el-dialog--small {
+  width: 350px;
+}
+#memberTable .el-icon-loading {
+  background: none;
+}
+#memberTable .el-dialog__close.el-icon.el-icon-close {
+  background: none;
+}
+#memberTable .levelName input {
+  height: 28px;
+  width: 160px;
+  padding: 3px 10px;
+}
+#memberTable .levelName input:focus {
+  border: 1px solid #8391a5;
+  outline: none;
+  padding: 3px 10px;
+}
+#integralTwo .row_line input {
+  width: 100%;
+  height: 28px;
+  padding: 3px 10px;
+}
+.el-button.el-button--small span {
+  font-size: 14px;
+}
+#integralTwo .row_line input:focus {
+  border: 1px solid #8391a5;
+  outline: none;
+  padding: 3px 10px;
+}
+.inputSet .row_line input {
+  width: 100%;
+  height: 28px;
+  padding: 3px 10px;
+}
+.inputSet .row_line input:focus {
+  border: 1px solid #8391a5;
+  outline: none;
+  padding: 3px 10px;
+}
+#integralTwo .el-dialog.el-dialog--small {
+  width: 606px;
+}
+.diaWidth .el-dialog.el-dialog--small {
+  width: 540px;
+}
+.dealVipTable .el-dialog.el-dialog--small {
+  width: 730px;
+}
+#manageGroup .el-dialog.el-dialog--small {
+  width: 340px;
+}
+#integralTwo .row_line i {
+  background: none;
+}
+.text-right .el-icon {
+  background: none;
+}
+.inputSet .el-input__icon {
+  background: none;
+}
+.state_span {
+  display: inline-block;
+  width: 54px;
+  height: 22px;
+  border-radius: 2px;
+  text-align: center;
+  color: white;
+}
+.state_span.ing {
+  background: #ffc633;
+}
+.state_span.not_begin {
+  background: #3089de;
+}
+.state_span.over {
+  background: #e6e6e6;
+  color: #333333;
+}
+.dia_style .el-checkbox__label {
+  font-size: 12px;
+}
+.dia_style .el-checkbox {
+  margin-left: 10px;
+  margin-top: 3px;
+}
+.dealVipTable .cell {
+  padding: 0 5px;
+}

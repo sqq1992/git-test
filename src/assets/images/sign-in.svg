@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>每日签到</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFE500" offset="0%"></stop>
+            <stop stop-color="#FF8500" offset="100%"></stop>
+        </linearGradient>
+        <path d="M37.0208153,47.0208153 L37.0208153,33.0208153 C37.0208153,31.9162458 37.9162458,31.0208153 39.0208153,31.0208153 C40.1253848,31.0208153 41.0208153,31.9162458 41.0208153,33.0208153 L41.0208153,49.0208153 C41.0208153,50.1253848 40.1253848,51.0208153 39.0208153,51.0208153 L29.0208153,51.0208153 C27.9162458,51.0208153 27.0208153,50.1253848 27.0208153,49.0208153 C27.0208153,47.9162458 27.9162458,47.0208153 29.0208153,47.0208153 L37.0208153,47.0208153 Z" id="path-2"></path>
+        <filter x="-32.1%" y="-32.5%" width="207.1%" height="175.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="3" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.40845788   0 0 0 0 0  0 0 0 0.624943388 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="样式" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图标">
+            <path d="M68,25 L0,25 L0,16 C-5.41083001e-16,11.581722 3.581722,8 8,8 L13,8 L13,3 C13,1.34314575 14.3431458,3.04359188e-16 16,0 C17.6568542,-3.04359188e-16 19,1.34314575 19,3 L19,8 L49,8 L49,3 C49,1.34314575 50.3431458,3.04359188e-16 52,0 C53.6568542,-3.04359188e-16 55,1.34314575 55,3 L55,8 L60,8 C64.418278,8 68,11.581722 68,16 L68,25 Z M68,29 L68,60 C68,64.418278 64.418278,68 60,68 L8,68 C3.581722,68 5.41083001e-16,64.418278 0,60 L0,29 L68,29 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+            <g id="Combined-Shape" transform="translate(34.020815, 41.020815) rotate(-315.000000) translate(-34.020815, -41.020815) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

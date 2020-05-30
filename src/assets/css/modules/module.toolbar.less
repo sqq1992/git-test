@@ -1,0 +1,115 @@
+.common-toolbar{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: #d2d2d2 solid 1px;
+    background: #fbfbfb; position: relative;
+    font-size: 12px;
+    .brand-nav{
+        float: left;
+        display: inline;
+        color: #666;
+        .arrow{
+            padding: 0 5px;
+            font-family: "宋体";
+        }
+        .top_kf{
+            width: 88px; height: 36px; line-height: 36px; display: inline-block; position: absolute; top: 4px; right: 5px;
+            img{vertical-align: middle;}
+        }
+    }
+    .notice-list-wrap{
+        float: right;
+        display: inline;
+        margin: 5px 10px 0 0;
+        padding-right: 20px;
+        height: 28px;
+        line-height: 28px;
+        background: #ebebeb;
+        border: #e3e3e3;
+        position: relative;
+    }
+    .prev-btn,.next-btn{
+        position: absolute;
+        background: url("../../images/notice-arrow.png") -999em 0 no-repeat;
+        width: 9px;
+        height: 5px;
+        overflow: hidden;
+        right: 5px;
+        cursor: pointer;
+        text-indent: -999em;
+    }
+    .prev-btn{
+        top: 8px;
+        background-position: 0 0;
+        &:hover{
+            background-position: -11px 0;
+        }
+    }
+    .next-btn{
+        top: 15px;
+        background-position: 0 -7px;
+        &:hover{
+            background-position: -11px -7px;
+        }
+    }
+    .notice-icon{
+        background: url("../../images/notice-icon.png") no-repeat;
+        float: left;
+        display: inline;
+        margin: 6px 5px 0 7px;
+        width: 16px;
+        height: 16px;
+    }
+    .notice-list{
+        float: left;
+        width: 496px;
+        height: 28px;
+        border-right: #e3e3e3 solid 1px;
+        overflow: hidden;
+        ul{
+            position: relative;
+            top: 0;
+        }
+        li{
+            height: 28px;
+        }
+        a{
+            color: #ab0d0d;
+        }
+    }
+    .tool-box{
+        width: 430px;
+        position: absolute;
+        right: 10px;
+    }
+    .ring{
+        width: 16px;
+        height: 12px;
+        display: inline-block;
+        margin-right: 10px;
+        // background: url("../../images/img-box.png") -782px 0 no-repeat;
+    }
+    .choose-new{
+        height: 10px;
+        width: 8px;
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        height: 10px;
+        margin-top: -5px;
+    }
+    .pre-new{
+        width: 7px;
+        height: 4px;
+        margin-bottom: 1px;
+        display: block;
+        // background: url("../../images/img-box.png") -596px -309px no-repeat;
+    }
+    .next-new{
+        width: 7px;
+        height: 4px;
+        margin-top: 1px;
+        display: block;
+        // background: url("../../images/img-box.png") -596px -458px no-repeat;
+    }
+}

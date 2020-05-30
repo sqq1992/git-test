@@ -1,0 +1,844 @@
+/**
+ * @Project: pl-less 
+ * @Description: special 私人 LESS框架
+ * @author: Special special3961@163.com
+ * @date: 2016/08/04
+ * @Copyright: www.panweijie.com Inc. All rights reserved.
+ * @version: V2.0
+ */
+
+.rest(){
+	*{margin:0px;padding:0px}
+	body{font-size:12px;font-family:Microsoft YaHei;color:#666;}
+	a{text-decoration:none;}
+	ul li{list-style:none;}
+	img{border:none;}
+	input,select,textarea{outline:none; border:none; background:none;}
+  	textarea{resize:none;}
+  	.clear{
+  		.clear();
+  	}
+	.ta{
+		text-align : center;
+	}
+	.fl{
+		float : left;
+    	display: inline;
+	}
+	.fr{
+		float : right;
+    	display: inline;
+	}
+	.no-padding{
+		padding:0;
+	}
+	.font();
+	.position();
+	.display();
+	.text();
+	.padding();
+	.margin();
+}
+.reset-sina(){
+	html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+	fieldset, img { border:none; }
+	img{display: block;}
+	address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+	ul, ol { list-style:none; }
+	input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+	input::-moz-focus-inner { border:none; padding:0; }
+	select, input { vertical-align:middle; }
+	select, input, textarea { font-size:12px; margin:0; }
+	input[type="text"], input[type="password"], textarea { outline-style:none; -webkit-appearance:none; }
+	textarea { resize:none; }
+	input,textarea{background: none; border: none;}
+	table { border-collapse:collapse; }
+	body { color:#333; font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; background:#fff; }
+	a { color:#666; text-decoration:none; }
+	a:visited { color:#666; }
+	a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; }
+  	.clear{
+  		.clear();
+  	}
+	.ta{
+		text-align : center;
+	}
+	.fl{
+		float : left;
+    	display: inline;
+	}
+	.fr{
+		float : right;
+    	display: inline;
+	}
+	.no-padding{
+		padding:0;
+	}
+	.font();
+	.position();
+	.display();
+	.text();
+	.padding();
+	.margin();
+}
+//去除a和label的虚线
+.remove_dotted(){
+	a,label {blr:~'expression(this.onFocus=this.blur())'}
+	a,label {outline:none;}
+}
+
+//display
+.display(){
+	.d-b(){
+	  display: block;
+	}
+	.d-i(){
+	  display: inline;
+	}
+	.d-ib(){
+	  display: inline-block;
+	}
+	.d-ib7(){
+	  display: inline-block;
+	  *display: inline;
+	  *zoom:1;
+	}
+	.d-t(){
+	  display:table;
+	}
+	.d-n(){
+	  display: none;
+	}
+}
+
+//font family
+.font-fm(){
+  font-family: "Microsoft Yahei","微软雅黑";
+}
+.font-fs(){
+  font-family: "SimSun","宋体";
+}
+.font-fa(){
+  font-family: "Arial";
+}
+.font-fv(){
+  font-family:Verdana;
+}
+// 字体
+.font(){
+	//font weight
+	.font-w900{font-weight: 900;}
+	.font-w700{font-weight: 700;}
+	.font-wb{font-weight: bold;}
+	.font-w400{font-weight: 400;}
+	.font-wn{font-weight: normal;}
+	.ft0{font-size: 0px;}
+	.ft1{font-size: 1px;}
+	.ft2{font-size: 2px;}
+	.ft3{font-size: 3px;}
+	.ft4{font-size: 4px;}
+	.ft5{font-size: 5px;}
+	.ft6{font-size: 6px;}
+	.ft7{font-size: 7px;}
+	.ft8{font-size: 8px;}
+	.ft9{font-size: 9px;}
+	.ft10{font-size: 10px;}
+	.ft11{font-size: 11px;}
+	.ft12{font-size: 12px;}
+	.ft13{font-size: 13px;}
+	.ft14{font-size: 14px;}
+	.ft15{font-size: 15px;}
+	.ft16{font-size: 16px;}
+	.ft17{font-size: 17px;}
+	.ft18{font-size: 18px;}
+	.ft19{font-size: 19px;}
+	.ft20{font-size: 20px;}
+	.ft21{font-size: 21px;}
+	.ft22{font-size: 22px;}
+	.ft23{font-size: 23px;}
+	.ft24{font-size: 24px;}
+	.ft25{font-size: 25px;}
+	.ft26{font-size: 26px;}
+	.ft27{font-size: 27px;}
+	.ft28{font-size: 28px;}
+	.ft29{font-size: 29px;}
+	.ft30{font-size: 30px;}
+	.ft31{font-size: 31px;}
+	.ft32{font-size: 32px;}
+	.ft33{font-size: 33px;}
+	.ft34{font-size: 34px;}
+	.ft35{font-size: 35px;}
+	.ft36{font-size: 36px;}
+	.ft37{font-size: 37px;}
+	.ft38{font-size: 38px;}
+	.ft39{font-size: 39px;}
+	.ft40{font-size: 40px;}
+	.ft41{font-size: 41px;}
+	.ft42{font-size: 42px;}
+	.ft43{font-size: 43px;}
+	.ft44{font-size: 44px;}
+	.ft45{font-size: 45px;}
+	.ft46{font-size: 46px;}
+	.ft47{font-size: 47px;}
+	.ft48{font-size: 48px;}
+	.ft49{font-size: 49px;}
+	.ft50{font-size: 50px;}
+	.ft51{font-size: 51px;}
+	.ft52{font-size: 52px;}
+	.ft53{font-size: 53px;}
+	.ft54{font-size: 54px;}
+	.ft55{font-size: 55px;}
+	.ft56{font-size: 56px;}
+	.ft57{font-size: 57px;}
+	.ft58{font-size: 58px;}
+	.ft59{font-size: 59px;}
+	.ft60{font-size: 60px;}
+	.ft61{font-size: 61px;}
+	.ft62{font-size: 62px;}
+	.ft63{font-size: 63px;}
+	.ft64{font-size: 64px;}
+	.ft65{font-size: 65px;}
+	.ft66{font-size: 66px;}
+	.ft67{font-size: 67px;}
+	.ft68{font-size: 68px;}
+	.ft69{font-size: 69px;}
+	.ft70{font-size: 70px;}
+	.ft71{font-size: 71px;}
+	.ft72{font-size: 72px;}
+	.ft73{font-size: 73px;}
+	.ft74{font-size: 74px;}
+	.ft75{font-size: 75px;}
+	.ft76{font-size: 76px;}
+	.ft77{font-size: 77px;}
+	.ft78{font-size: 78px;}
+	.ft79{font-size: 79px;}
+	.ft80{font-size: 80px;}
+	.ft81{font-size: 81px;}
+	.ft82{font-size: 82px;}
+	.ft83{font-size: 83px;}
+	.ft84{font-size: 84px;}
+	.ft85{font-size: 85px;}
+	.ft86{font-size: 86px;}
+	.ft87{font-size: 87px;}
+	.ft88{font-size: 88px;}
+	.ft89{font-size: 89px;}
+	.ft90{font-size: 90px;}
+	.ft91{font-size: 91px;}
+	.ft92{font-size: 92px;}
+	.ft93{font-size: 93px;}
+	.ft94{font-size: 94px;}
+	.ft95{font-size: 95px;}
+	.ft96{font-size: 96px;}
+	.ft97{font-size: 97px;}
+	.ft98{font-size: 98px;}
+	.ft99{font-size: 99px;}
+	.ft100{font-size: 100px;}
+}
+
+// 内边距
+.padding(){
+	.pad10{padding: 10px;}
+	.pad15{padding: 15px;}
+	.pad20{padding: 20px;}
+	.pad25{padding: 25px;}
+	.pad30{padding: 30px;}
+	.pad35{padding: 35px;}
+	.pad40{padding: 40px;}
+	.pad45{padding: 45px;}
+	.pad50{padding: 50px;}
+
+	.pt10{padding-top: 10px}
+	.pt15{padding-top: 15px}
+	.pt20{padding-top: 20px}
+	.pt25{padding-top: 25px}
+	.pt30{padding-top: 30px}
+	.pt35{padding-top: 35px}
+	.pt40{padding-top: 40px}
+	.pt45{padding-top: 45px}
+	.pt50{padding-top: 50px}
+
+	.pr10{padding-right: 10px}
+	.pr15{padding-right: 15px}
+	.pr20{padding-right: 20px}
+	.pr25{padding-right: 25px}
+	.pr30{padding-right: 30px}
+	.pr35{padding-right: 35px}
+	.pr40{padding-right: 40px}
+	.pr45{padding-right: 45px}
+	.pr50{padding-right: 50px}
+
+	.pb10{padding-bottom: 10px}
+	.pb15{padding-bottom: 15px}
+	.pb20{padding-bottom: 20px}
+	.pb25{padding-bottom: 25px}
+	.pb30{padding-bottom: 30px}
+	.pb35{padding-bottom: 35px}
+	.pb40{padding-bottom: 40px}
+	.pb45{padding-bottom: 45px}
+	.pb50{padding-bottom: 50px}
+
+	.pl10{padding-left: 10px}
+	.pl15{padding-left: 15px}
+	.pl20{padding-left: 20px}
+	.pl25{padding-left: 25px}
+	.pl30{padding-left: 30px}
+	.pl35{padding-left: 35px}
+	.pl40{padding-left: 40px}
+	.pl45{padding-left: 45px}
+	.pl50{padding-left: 50px}
+
+	.pd12{padding: 0 12px;}
+}
+
+// 外边距
+.margin(){
+	.mar10{margin: 10px;}
+	.mar15{margin: 15px;}
+	.mar20{margin: 20px;}
+	.mar25{margin: 25px;}
+	.mar30{margin: 30px;}
+	.mar35{margin: 35px;}
+	.mar40{margin: 40px;}
+	.mar45{margin: 45px;}
+	.mar50{margin: 50px;}
+
+	.mt10{margin-top: 10px}
+	.mt15{margin-top: 15px}
+	.mt20{margin-top: 20px}
+	.mt25{margin-top: 25px}
+	.mt30{margin-top: 30px}
+	.mt35{margin-top: 35px}
+	.mt40{margin-top: 40px}
+	.mt45{margin-top: 45px}
+	.mt50{margin-top: 50px}
+
+	.mr10{margin-right: 10px}
+	.mr15{margin-right: 15px}
+	.mr20{margin-right: 20px}
+	.mr25{margin-right: 25px}
+	.mr30{margin-right: 30px}
+	.mr35{margin-right: 35px}
+	.mr40{margin-right: 40px}
+	.mr45{margin-right: 45px}
+	.mr50{margin-right: 50px}
+
+	.mb10{margin-bottom: 10px}
+	.mb15{margin-bottom: 15px}
+	.mb20{margin-bottom: 20px}
+	.mb25{margin-bottom: 25px}
+	.mb30{margin-bottom: 30px}
+	.mb35{margin-bottom: 35px}
+	.mb40{margin-bottom: 40px}
+	.mb45{margin-bottom: 45px}
+	.mb50{margin-bottom: 50px}
+
+	.ml10{margin-left: 10px}
+	.ml15{margin-left: 15px}
+	.ml20{margin-left: 20px}
+	.ml25{margin-left: 25px}
+	.ml30{margin-left: 30px}
+	.ml35{margin-left: 35px}
+	.ml40{margin-left: 40px}
+	.ml45{margin-left: 45px}
+	.ml50{margin-left: 50px}
+}
+
+// 定位
+.position(){
+	.rel{position: relative;}
+	.abs{position: absolute;}
+	.fix{position: fixed;}
+}
+.pos-box(@w:500px,@h:400px,@pos:absolute){
+	width: @w;
+	height: @h;
+	position: @pos;
+	left:0;
+	top:0;
+}
+
+//定位居中
+.pos-box-cc(@w:600px,@h:360px,@pos:absolute){
+	width: @w;
+	height: @h;
+	position: @pos;
+	left: 50%;
+	top: 50%;
+	margin-left: -@w / 2;
+	margin-top: -@h / 2;
+}
+
+//布局
+.bc(){
+	margin-left: auto;
+	margin-right: auto;
+}
+.bc-d(@w:500px){
+	width: @w;
+	.bc();
+}
+.wh(@w){
+	width: @w;
+	height: @w;
+}
+.w-be-h(@w){
+	width: @w;
+	height: @w;
+}
+.z-index(@index:1){
+ 	z-index: @index;
+}
+
+//高度100%
+.h100(){
+	height: 100%;
+}
+
+//文字垂直居中
+.txt-ver(@h){
+	height: @h;
+	line-height: @h;
+}
+
+// 同.txt-ver
+.l-h(@h){
+	height: @h;
+	line-height: @h;
+}
+
+.clear(){
+	*zoom: 1;
+	&:before,
+	&:after {
+	  display: table;
+	  content: "";
+	}
+	&:after {
+	  clear: both;
+	}
+}
+.over(@h:hidden){
+	overflow:@h;
+}
+
+//background
+.bg(@url){
+	background: url(@url) 0 0 repeat;
+}
+.bg-m(@url,@x:0,@y:0,@repeat:no-repeat){
+	background: url(@url) @x @y @repeat;
+}
+.bgi(@url){
+	background-image: url(@url);
+}
+.bgp(@x:0,@y:0){
+	background-position: @x @y;
+}
+.bgr-r(){
+	background-repeat: repeat;
+}
+.bgr-x(){
+	background-repeat: repeat-x;
+}
+.bgr-y(){
+	background-repeat: repeat-y;
+}
+.bgr-no(){
+	background-repeat: no-repeat;
+}
+.bga-fix(){
+	background-attachment: fixed;
+}
+
+//lis
+.list-sn(){
+	list-style: none;
+}
+
+//text
+.text-n(@p: none){
+	text-decoration: @p;
+}
+
+//添加下划线
+.text(){
+	.tu{
+		text-decoration: underline;
+	}
+	.tn{
+		text-decoration: none;
+	}
+	.tl{
+		text-align: left;
+	}
+	.tc{
+		text-align: center;
+	}
+	.tr{
+		text-align: right;
+	}
+}
+
+//文字省略号
+// @substract单位为%
+.ellipsis-basic(){
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.ellipsis(@substract:0) {
+	.ellipsis-basic();
+	width:100% - @substract;
+}
+
+//多行溢出省略
+.ellipsis_all(@a:2){
+	overflow:hidden;
+	text-overflow:ellipsis;
+	-webkit-line-clamp:@a;
+	-webkit-box-orient:vertical;
+	display: -webkit-box;
+	-moz-line-clamp:@a;
+	-moz-box-orient:vertical; 
+	display: -moz-box; 
+}
+
+// 单行溢出
+.ellipsis(){
+	.ellipsis-basic();
+}
+
+.font-s(@f:12px){
+	font-size:@f;
+}
+// 三角
+.triangle(@_,@w:5px,@c:#ccc){
+	border-width:@w;
+	border-color:transparent;
+	border-style:dashed;
+	.triangle-compatible();
+}
+.triangle(top,@w:5px,@c:#ccc){
+	border-top-color:@c;
+	border-top-style:solid;
+}
+.triangle(bottom,@w:5px,@c:#ccc){
+	border-bottom-color:@c;
+	border-bottom-style:solid;
+}
+.triangle(left,@w:5px,@c:#ccc){
+	border-left-color:@c;
+	border-left-style:solid;
+}
+.triangle(right,@w:5px,@c:#ccc){
+	border-right-color:@c;
+	border-right-style:solid;
+}
+//边框附加内容
+.triangle-compatible(){
+    width: 0;
+    height: 0;
+    overflow:hidden;
+}
+//单独方向
+.triangle-b(@w:5px,@color:#ccc){
+	border-style:solid dashed dashed dashed;
+	border-color:@color transparent transparent transparent;
+	border-width:@w;
+	.triangle-compatible();
+}
+.triangle-l(@w:5px,@color:#ccc){
+	border-style:dashed solid dashed dashed;
+	border-color:transparent @color transparent transparent;
+	border-width:@w;
+	.triangle-compatible();
+}
+.triangle-t(@w:5px,@color:#ccc){
+	border-style:dashed dashed solid dashed;
+	border-color:transparent transparent @color transparent;
+	border-width:@w;
+	.triangle-compatible();
+}
+.triangle-r(@w:5px,@color:#ccc){
+	border-style:dashed dashed dashed solid;
+	border-color:transparent transparent transparent @color;
+	border-width:@w;
+	.triangle-compatible();
+}
+// 圆角
+.border_radius(@r:5px){
+	border-radius:@r;
+}
+// 边线
+.border_top(@l:1px,@c:#ccc){
+	border-top:@l solid @c;
+}
+.border_left(@l:1px,@c:#ccc){
+	border-left:@l solid @c;
+}
+.border_right(@l:1px,@c:#ccc){
+	border-right:@l solid @c;
+}
+.border_bottom(@l:1px,@c:#ccc){
+	border-bottom:@l solid @c;
+}
+.ta(@t:left){
+	text-align:@t;
+}
+
+//特殊需求
+.min-width(@width){
+	min-width: @width;
+	_width:@width;
+}
+.max-width(@width,@id){
+	max-width: @width;
+	_width:~'expression(document.getElementById("@{id}").offsetHeight>parseInt("@{width}")?"@{width}": "auto")';
+	overflow:hidden;
+}
+.min-height(@height){
+	min-height: @height;
+	_height:@height;
+}
+.max-height(@height,@id){
+	max-height: @height;
+	_height:~'expression(document.getElementById("@{id}").offsetHeight>parseInt("@{height}")?"@{height}": "auto")';
+	overflow:hidden;
+}
+//透明度
+.opa(@opacity: 80) {
+	opacity: @opacity / 100;
+	filter: ~"alpha(opacity=@{opacity})";
+}
+.rgba(@red, @green, @blue, @alpha:1){
+	@filtercolor:`(_f = function(d){ var v = (parseInt(d)|0).toString(16);return v.length<2 ? "0"+v : v;},
+                                        '#'+_f(@{alpha}*255) + _f(@{red}) + _f(@{green})+ _f(@{blue}))`;
+        
+	background-color: ~'rgba(@{red},@{green},@{blue},@{alpha})';
+	-ms-filter:~"progid:DXImageTransform.Microsoft.gradient(startColorstr='@{filtercolor}',endColorstr='@{filtercolor}')";
+	filter:~"progid:DXImageTransform.Microsoft.gradient(startColorstr='@{filtercolor}',endColorstr='@{filtercolor}')";        
+}
+
+// =============================================
+// .jumbotron {
+//   .retina-image("/img/bg-1x.png", "/img/bg-2x.png", 100px, 100px);
+// }
+// =============================================
+
+
+.retina-image(@file-1x, @file-2x, @width-1x, @height-1x) {
+	background-image: url("@{file-1x}");
+
+	@media
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (   min--moz-device-pixel-ratio: 2),
+	only screen and (     -o-min-device-pixel-ratio: 2/1),
+	only screen and (        min-device-pixel-ratio: 2),
+	only screen and (                min-resolution: 192dpi),
+	only screen and (                min-resolution: 2dppx) {
+		background-image: url("@{file-2x}");
+		background-size: @width-1x @height-1x;
+	}
+}
+
+// =============================================
+// 创建24列 自适应流式布局
+// HTML结构:
+// <div class="pl-fluid"> <div class="row-fluid"> <div class="span span6 first-child"></div> <div class="span span6"></div> <div class="span span6"></div> <div class="span span6"></div> </div> <div class="row-fluid"> <div class="span span8 first-child"></div> <div class="span span8"></div> <div class="span span8"></div> </div> <div class="row-fluid"> <div class="span span12 first-child"></div> <div class="span span12"></div> </div> </div>
+// =============================================
+
+.makeFluid(@colnum: 24, @colwidth: 30px, @margin: 10px){
+	@gridColumns:             @colnum;
+	@gridColumnWidth:         @colwidth;
+	@gridGutterWidth:         @margin;
+	@gridRowWidth:            (@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1));
+	@fluidGridColumnWidth:    percentage(@gridColumnWidth/@gridRowWidth);
+	@fluidGridGutterWidth:    percentage(@gridGutterWidth/@gridRowWidth);
+	.fluid (@fluidGridColumnWidth, @fluidGridGutterWidth) {
+
+		.spanX (@index) when (@index > 0) {
+			.span@{index} { .span(@index); }
+			.spanX(@index - 1);
+		}
+		.spanX (0) {}
+
+		.offsetX (@index) when (@index > 0) {
+	      .offset@{index} { .offset(@index); }
+	      .offset@{index}:first-child { .offsetFirstChild(@index); }
+	      .offsetX(@index - 1);
+	    }
+	    .offsetX (0) {}
+
+		.offset (@columns) {
+			margin-left: (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1)) + (@fluidGridGutterWidth*2);
+			*margin-left: (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1)) - (.5 / @gridRowWidth * 100 * 1%) + (@fluidGridGutterWidth*2) - (.5 / @gridRowWidth * 100 * 1%);
+		}
+
+		.offsetFirstChild (@columns) {
+			margin-left: (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1)) + (@fluidGridGutterWidth);
+			*margin-left: (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1)) - (.5 / @gridRowWidth * 100 * 1%) + @fluidGridGutterWidth - (.5 / @gridRowWidth * 100 * 1%);
+		}
+
+		.span (@columns) {
+			width: (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1));
+			*width: (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1)) - (.5 / @gridRowWidth * 100 * 1%);
+		}
+
+		.row-fluid {
+			width: 100%;
+			.clearfix();
+			.span {
+				float: left;
+				margin-left: @fluidGridGutterWidth;
+				*margin-left: @fluidGridGutterWidth - (.5 / @gridRowWidth * 100 * 1%);
+			}
+			.first-child {
+				margin-left: 0;
+			}
+
+			// Space grid-sized controls properly if multiple per line
+			.controls-row [class*="span"] + [class*="span"] {
+				margin-left: @fluidGridGutterWidth;
+			}
+
+			// generate .spanX and .offsetX
+			.spanX (@gridColumns);
+			.offsetX (@gridColumns);
+		}
+	}
+
+	.pl-fluid{
+		.fluid (@fluidGridColumnWidth, @fluidGridGutterWidth);
+	}
+}
+// =============================================
+// 创建栅格布局
+// 默认950宽 24列 每列30px 间距10px
+// html结构
+// <div class="pl-grid"> <div class="row"> <div class="span span6"></div> <div class="span span6"></div> <div class="span span6"></div> <div class="span span6"></div> </div> <div class="row"> <div class="span span24"></div> </div> </div>
+// =============================================
+//栅格化
+
+.makeGrid(@colnum: 24, @colwidth: 30, @margin: 10px){
+  
+	//列数
+	@gridColumns:             @colnum;
+	//每一列宽度
+	@gridColumnWidth:         @colwidth;
+	//间距
+	@gridGutterWidth:         @margin;
+	//行宽度 = (列数 * 每一列的宽度 ) + (margin * (列数-1));
+	@gridRowWidth:            (@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1));
+
+	//每一列的宽度 间距
+	.gridX (@gridColumnWidth, @gridGutterWidth) {
+		.spanX (@index) when (@index > 0) {
+			.span@{index} { .span(@index); }
+			.spanX(@index - 1);
+		}
+		.spanX (0) {}
+
+		.offsetX (@index) when (@index > 0) {
+			.offset@{index} { .offset(@index); }
+			.offsetX(@index - 1);
+		}
+		.offsetX (0) {}
+
+		.offset (@columns) {
+			margin-left: (@gridColumnWidth * @columns) + (@gridGutterWidth * (@columns + 1));
+		}
+
+		.span (@columns) {
+			width: (@gridColumnWidth * @columns) + (@gridGutterWidth * (@columns - 1));
+		}
+
+		.row {
+			margin-left: @gridGutterWidth * -1;
+			.clearfix();
+		}
+
+		.span{
+			float: left;
+			min-height: 1px; // prevent collapsing columns
+			//background-color: #ccc; //this is a test - busy
+			margin-left: @gridGutterWidth;
+		}
+
+		// generate .spanX and .offsetX
+		.spanX (@gridColumns);
+		.offsetX (@gridColumns);
+
+	}
+	.pl-grid{
+		.gridX(@gridColumnWidth, @gridGutterWidth);
+	}
+
+}
+
+// =============================================
+// 创建Metro风格布局 
+// 默认950宽 6列 每列150px 间距10px
+// html结构
+//<div class="pl-metro"> <div class="row"> <div class="span span2"> <div class="row"> <div class="span span2 line2"></div> <div class="span span2 line1"></div> </div> </div> <div class="span span2"> <div class="row"> <div class="span span1 line2"></div> <div class="span span1"> <div class="row"> <div class="span span1 line1"></div> <div class="span span1 line1"></div> </div> </div> </div> <div class="row"> <div class="span span2 line1"></div> </div> </div> <div class="span span2"> <div class="row"> <div class="span span2 line1"></div> <div class="span span2 line2"></div> </div> </div> </div> </div>
+// =============================================
+
+.makeMetro(@colnum: 6, @colwidth: 150px, @margin: 10px){
+  
+	@gridColumns:             @colnum;
+	@gridColumnWidth:         @colwidth;
+	@gridGutterWidth:         @margin;
+	@gridRowWidth:            (@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1));
+
+
+	.metroX (@gridColumnWidth, @gridGutterWidth) {
+		.spanX (@index) when (@index > 0) {
+			.span@{index} { .span(@index); }
+			.spanX(@index - 1);
+		}
+		.spanX (0) {}
+		.lineX (@index) when (@index > 0) {
+			.line@{index} { .line(@index); }
+			.lineX(@index - 1);
+		}
+		.lineX (0) {}
+
+		.offsetX (@index) when (@index > 0) {
+			.offset@{index} { .offset(@index); }
+			.offsetX(@index - 1);
+		}
+		.offsetX (0) {}
+
+		.offset (@columns) {
+			margin-left: (@gridColumnWidth * @columns) + (@gridGutterWidth * (@columns + 1));
+		}
+
+		.span (@columns) {
+			width: (@gridColumnWidth * @columns) + (@gridGutterWidth * (@columns - 1));
+		}
+		.line (@columns){
+			height: (@gridColumnWidth * @columns) + (@gridGutterWidth * (@columns - 1));
+			margin-bottom: @margin;
+		}
+
+		.row {
+			margin-left: @gridGutterWidth * -1;
+			.clearfix();
+		}
+
+		.span{
+			float: left;
+			min-height: 1px; // prevent collapsing columns
+			margin-left: @gridGutterWidth;
+		}
+
+		// generate .spanX and .offsetX
+		.spanX (@gridColumns);
+		.lineX (@gridColumns);
+		.offsetX (@gridColumns);
+
+	}
+	.pl-metro{
+		.metroX(@gridColumnWidth, @gridGutterWidth);
+	}
+
+}

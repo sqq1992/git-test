@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>幸运抽奖</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFAE00" offset="0%"></stop>
+            <stop stop-color="#FF5D00" offset="100%"></stop>
+        </linearGradient>
+        <path d="M33.9988,35.015 L24.9998,19.427 C27.6488,17.892 30.7168,17 33.9988,17 C37.2818,17 40.3488,17.892 42.9988,19.427 L33.9989155,35.0148 L25.013,50.5798 C19.634,47.4708 16.006,41.6728 16,35.0148 L33.9989155,35.0148 Z M42.9858,50.58 L33.9988,35.015 L51.9988,35.015 C51.9928,41.673 48.3638,47.471 42.9858,50.58 Z" id="path-2"></path>
+        <filter x="-12.5%" y="-19.4%" width="141.7%" height="144.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="3" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.541176471   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="样式" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图标">
+            <g id="Group">
+                <circle id="Oval" fill="url(#linearGradient-1)" cx="34" cy="34" r="34"></circle>
+                <g id="Combined-Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <path d="M34,56 C21.8497355,56 12,46.1502645 12,34 C12,21.8497355 21.8497355,12 34,12 C46.1502645,12 56,21.8497355 56,34 C56,46.1502645 46.1502645,56 34,56 Z M34,54 C45.045695,54 54,45.045695 54,34 C54,22.954305 45.045695,14 34,14 C22.954305,14 14,22.954305 14,34 C14,45.045695 22.954305,54 34,54 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
