@@ -11,7 +11,7 @@ import store from './store'
 import http from './api'
 
 // Vue.use(ElementUI);
-const name = "sun1992";
+const name = "sbsun1992";
 Vue.prototype.$http = http;
 filter(Vue);
 
