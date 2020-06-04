@@ -11,7 +11,7 @@ import store from './store'
 import http from './api'
 
 // Vue.use(ElementUI);
-Vue.use(ELEMENT);
+Vue.use(ELEMENT);  //todo mock
 Vue.prototype.$http = http;
 filter(Vue);
 
